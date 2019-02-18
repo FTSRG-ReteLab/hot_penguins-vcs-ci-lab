@@ -1,8 +1,9 @@
 package hu.bme.mit.train.sensor;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import static junit.framework.TestCase.assertTrue;
 import static org.mockito.Mockito.*;
 
 public class TrainSensorTest {
@@ -14,6 +15,11 @@ public class TrainSensorTest {
 
     @Test
     public void ThisIsAnExampleTestStub() {
-        // TODO Delete this and add test cases based on the issues
     }
+
+    @Test
+    public void AnotherTestStub() {
+        assertTrue(true);
+    }
+
 }
