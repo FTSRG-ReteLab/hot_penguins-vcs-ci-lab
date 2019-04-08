@@ -8,6 +8,6 @@ public interface TrainController {
 
 	void setSpeedLimit(int speedLimit);
 
-	void setJoystickPosition(int joystickPosition) throws InterruptedException;
+	void setJoystickPosition(int joystickPosition);
 
 }
